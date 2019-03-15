@@ -7626,6 +7626,10 @@ body {
     font-family: "Questrial", sans-serif;
     font-size: 2.5rem;
     line-height: 1; }
+  #showcase h2 {
+    font-family: "Questrial", sans-serif;
+    font-size: 1.3rem;
+    line-height: 1; }
   #showcase #bookNow {
     font-size: 1.2rem;
     border-radius: 2rem;
@@ -7635,6 +7639,10 @@ body {
   font-size: 1.2rem;
   border-radius: 2rem;
   background-color: #36b3a8; }
+
+.footer {
+  background-color: #1f1f1f;
+  font-weight: 100; }
 
 @media (max-width: 768px) {
   .navbar {
