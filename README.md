@@ -1,7 +1,7 @@
 # Brooklyn Outdoor Film Festival
 This is the 3rd project in the openclassrooms Front end developer bachelor diploma. The project brief is as follows:
 
-Try the app live here: [Brooklyn Outdoor Film Festival]()
+Try the app live here: [Brooklyn Outdoor Film Festival](https://the-masta-blasta.github.io/outdoor_film_festival/)
 
 
 ###Website prototype
@@ -45,6 +45,6 @@ I want to...
 
 
 ## Deployment
-The app was deployed on github pages and can be viewed at the following link: [Brooklyn Outdoor Film Festival]
+The app was deployed on github pages and can be viewed at the following link: [Brooklyn Outdoor Film Festival](https://the-masta-blasta.github.io/outdoor_film_festival/)
 
 ## Further enhancements
