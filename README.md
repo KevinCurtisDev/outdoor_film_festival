@@ -1,9 +1,6 @@
 # Brooklyn Outdoor Film Festival
 This is the 3rd project in the openclassrooms Front end developer bachelor diploma. The project brief is as follows:
 
-Try the app live here: [Brooklyn Outdoor Film Festival](https://the-masta-blasta.github.io/outdoor_film_festival/)
-
-
 ### Website prototype
 You'll need to make a first version of the site that meets all the requirements Jennifer explained above. The website prototype should be in HTML and CSS with Bootstrap. You don't actually need to buy the .com or the .org though; you can simply propose it in your project brief.
 
@@ -24,7 +21,7 @@ Create a project brief from the description above and the client’s requests. I
 * Technical specifications (explanation of design and technical choices that were made, even if they're basic)
 
 ## UX
-
+Bootstrap 4 was used to achieve a mobile friendly design. I used a common layout in order to keep the site navigation familiar and easy to understand - implementing a collapsable navigation menu at the top of the site. I made a few small alterations to the default bootstrap styles in order to give the site a unique look.
 
 ### User stories: 
 I want to... 
@@ -43,8 +40,6 @@ I want to...
 
 
 ## Deployment
-The app was deployed on github pages and can be viewed at the following link: [Brooklyn Outdoor Film Festival](https://the-masta-blasta.github.io/outdoor_film_festival/)
-
 You can also experience the website on your local network by cloning the repo or downloading it from github. Once downloaded, you should open terminal (mac / linux) or the command line (windows). cd into the project directory and run a simple server. You can use the following command if you have python3 installed: python3 -m http.server
 
 ## Difficulties
