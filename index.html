@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway, Questrial" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>B.O.F.F</title>
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                     <a href="festivalNews.html" class="nav-link">Festival News</a>
                 </li>
                 <li class="nav-item">
-                    <a href="preregister.html" class="nav-link">Pre-Register</a>
+                    <a href="festivalNews.html" class="nav-link" data-toggle="modal" data-target="#bookingModal">Book Now</a>
                 </li>
             </ul>
         </div>
@@ -46,7 +46,7 @@
             <h1 class="display-1 mb-3">BROOKLYN OUTDOOR FILM FESTIVAL</h1>
             <h2 class="display-1 mb-3">BROOKLYN BRIDGE PARK AUGUST 5TH - 8TH</h2>
             <p class="lead d-none d-md-block mb-4">Limited tickets. Book now to avoid dissapointment!</p>
-            <button id="bookNow" class="btn btn-lg btn-primary px-5">BOOK NOW</button>
+            <button id="bookNow" class="btn btn-lg btn-primary px-5" data-toggle="modal" data-target="#bookingModal">BOOK NOW</button>
         </div>
     </section>
 
@@ -108,6 +108,45 @@
             </li>
         </ul>
     </section>
+
+    <div class="modal" id="bookingModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pre Book your ticket now</h5>
+                    <button type="button" class="close" data-dismiss="modal" arial-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="tickets">Number of tickets</label>
+                            <select class="form-control" id="tickets">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Book tickets</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
