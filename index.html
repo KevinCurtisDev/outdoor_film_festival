@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/app.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/v4-shims.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway, Questrial" rel="stylesheet">
     <title>B.O.F.F</title>
 </head>
@@ -28,10 +30,10 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.html" class="nav-link">About</a>
+                    <a href="#festival-info" class="nav-link scroll">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="festivalNews.html" class="nav-link">Festival News</a>
+                    <a href="#festival-news" class="nav-link scroll">News</a>
                 </li>
                 <li class="nav-item">
                     <a href="festivalNews.html" class="nav-link" data-toggle="modal" data-target="#bookingModal">Book Now</a>
@@ -50,9 +52,27 @@
         </div>
     </section>
 
+    <section id="festival-info">
+        <div class="container mt-5 mb-5">
+            <h3 class="text-center">ABOUT</h3>
+            <div class="row">
+                <div class="col-md-5">
+                    <img width="100%" height="auto" src="https://quicket.azureedge.net/media/0109268_0.jpeg" alt=""
+                        class="card-img-top">
+                </div>
+                <div class="col-md-7">
+                    <p>sdbvasvlygasiuvh soid fu oufh alruhfg awhf uwhf u wfuhwuif wfuhwuif
+                        wiu iuwfuhwfiuhwliufh euf wiufiu fiuhf uhf uwh fwehfowh fouwh fuhw
+                        hzvcjauiah i uh uhfu w wh whf kuwhf h fuwehf uwehf uwehf uiwf u ioi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="movie-display">
         <div class="container text-center mt-5 mb-5">
-            <h3>A FIVE NIGHT JAW DROPPING CINEMATIC EXPERIENCE</h3>
+            <h3>FEATURED FILMS</h3>
             <div class="row mt-3 mg-3">
                 <div class="col-md-4 p-3">
                     <div class="card">
@@ -70,23 +90,70 @@
                     </div>
                 </div>
             </div>
-            <button id="seeSchedule" class="btn btn-lg btn-primary px-5 mt-5">SEE SCHEDULE</button>
+            <a href="#schedule-table" type="button" aria-expanded="false" class="btn btn-lg reveal-btn px-5" data-toggle="collapse">SEE SCHEDULE</a>
         </div>
     </section>
 
-    <section class="bg-dark">
-        <div class="container text-white text-center py-5">
-            <p class="lead">SIGN UP FOR OUR NEWSLETTER</p>
-            <div class="row justify-content-center">
-                <div class="container col-10 col-sm-8 col-md-6 col-lg-4">
-                    <form action="" class="form-inline">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Your email">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary">SIGN UP</button>
+    <section id="schedule-table" class="collapse">
+        <div class="container mt-5 mb-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Movie</th>
+                        <th>Start</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday, August 5th</td>
+                        <td>The hateful eight</td>
+                        <td>18:45</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday, August 6th</td>
+                        <td>Iris</td>
+                        <td>19:05</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday, August 7th</td>
+                        <td>name</td>
+                        <td>19:05</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday, August 8th</td>
+                        <td>Queen of Earth</td>
+                        <td>18:30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="bg-dark" id="festival-news">
+        <div class="row">
+            <div class="col-md-4 container text-white text-center py-5">
+                <p class="lead">FESTIVAL NEWS</p>
+                
+            </div>
+            <div class="container text-white text-center py-5 col-md-8">
+                <p class="lead">KEEP UP TO DATE</p>
+                <div class="row justify-content-center">
+                    <div class="container col-10 col-sm-8 col-md-6 col-lg-4">
+                        <form action="" class="form-inline">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Your email">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary">SIGN UP</button>
+                                </div>
                             </div>
+                        </form>
+                        <div class="social">
+                            <a href="" roll="button"><i class="fab fa-facebook-f"></i></a>
+                            <a href="" roll="button"><i class="fab fa-twitter"></i></a>
+                            <a href="" roll="button"><i class="fab fa-instagram"></i></a>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,6 +194,15 @@
                         <div class="form-group">
                             <label for="email">Email Address</label>
                             <input type="email" class="form-control" id="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="tickets">Select a film</label>
+                            <select class="form-control" id="tickets">
+                                <option value="1">The hateful eight</option>
+                                <option value="2">Iris</option>
+                                <option value="3">Queen of Earth</option>
+                                <option value="4">movie</option>
+                            </select>
                         </div>
                         <div class="form-group">
                             <label for="tickets">Number of tickets</label>
