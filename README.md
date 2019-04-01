@@ -40,6 +40,8 @@ I want to...
 
 
 ## Deployment
+THe site has been deployed to github pages and can be view here:[Brooklyn Film Festival](https://the-masta-blasta.github.io/outdoor_film_festival/)
+
 You can also experience the website on your local network by cloning the repo or downloading it from github. Once downloaded, you should open terminal (mac / linux) or the command line (windows). cd into the project directory and run a simple server. You can use the following command if you have python3 installed: python3 -m http.server
 
 ## Difficulties
