@@ -7602,6 +7602,9 @@ body {
   z-index: 3; }
   .navbar .navbar-brand h3 {
     font-weight: 100; }
+  .navbar .title {
+    font-size: 1.7rem;
+    padding-left: 20px; }
   .navbar .nav-item {
     font-size: 1.4rem; }
   .navbar .nav-link:hover {
@@ -7615,7 +7618,7 @@ body {
   #showcase #header {
     z-index: 2; }
   #showcase #overlay {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(186, 135, 78, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -7625,20 +7628,33 @@ body {
   #showcase h1 {
     font-family: "Questrial", sans-serif;
     font-size: 2.5rem;
-    line-height: 1; }
+    line-height: 1;
+    text-shadow: 2px 2px 7px black; }
   #showcase h2 {
     font-family: "Questrial", sans-serif;
     font-size: 1.3rem;
-    line-height: 1; }
+    line-height: 1;
+    text-shadow: 2px 2px 7px black; }
+  #showcase p {
+    text-shadow: 2px 2px 7px black; }
 
 #contact-section {
   min-height: 750px;
   position: relative; }
 
-#movie-display #seeSchedule {
-  font-size: 1.2rem;
-  border-radius: 2rem;
-  background-color: #36b3a8; }
+#movie-display {
+  background-color: #eff5f5;
+  padding: 20px 0; }
+  #movie-display .reveal-btn {
+    font-size: 1.2rem;
+    background-color: #36b3a8;
+    color: #fff; }
+
+#social {
+  width: 100%; }
+  #social .svg-inline--fa {
+    margin: 20px;
+    font-size: 2rem; }
 
 .footer {
   background-color: #1f1f1f;
@@ -7653,6 +7669,6 @@ body {
   #showcase {
     min-height: 500px; }
     #showcase h1 {
-      font-size: 2rem; } }
+      font-size: 2.5rem; } }
 
 /*# sourceMappingURL=app.css.map */

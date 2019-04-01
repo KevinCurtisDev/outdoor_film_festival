@@ -12,6 +12,10 @@ body {
     .navbar-brand h3 {
         font-weight: 100;
     }
+    .title {
+        font-size: 1.7rem;
+        padding-left: 20px;
+    }
     .nav-item {
         font-size: 1.4rem;
     }
@@ -31,7 +35,7 @@ body {
     }
 
     #overlay {
-        background: rgba(0,0,0,0.4);
+        background: rgba(186, 135, 78, 0.5);
         position: absolute;
         top: 0;
         left: 0;
@@ -43,12 +47,18 @@ body {
         font-family: "Questrial", sans-serif;
         font-size: 2.5rem;
         line-height: 1;
+        text-shadow: 2px 2px 7px black;
     }
 
     h2 {
         font-family: "Questrial", sans-serif;
         font-size: 1.3rem;
         line-height: 1;
+        text-shadow: 2px 2px 7px black;
+    }
+
+    p {
+        text-shadow: 2px 2px 7px black;
     }
 
 }
@@ -59,12 +69,24 @@ body {
 }
 
 #movie-display {
-    #seeSchedule {
+    background-color: #eff5f5;
+    padding: 20px 0;
+    .reveal-btn {
         font-size: 1.2rem;
-        border-radius: 2rem;
         background-color: #36b3a8;
+        color: #fff;
     }
 }
+
+#social {
+    width: 100%;
+    .svg-inline--fa {
+        margin: 20px;
+        font-size: 2rem;
+    }
+}
+
+
 
 .footer {
     background-color: #1f1f1f;
@@ -81,7 +103,7 @@ body {
     #showcase {
         min-height: 500px;
         h1 {
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
     }
 }
